@@ -117,7 +117,7 @@ def func_print_all_card():
             cards[i].update({
                 'width_list': width_list
             })
-    return ProductCard(cards, '1_所有商品價格牌')
+    return ProductCard(cards, '3_所有商品價格牌')
 
 
 def func_print_card(cards, filename):
@@ -595,7 +595,7 @@ class ProductCardWindow(QtWidgets.QMainWindow, Ui_CardWindow):
         self.product_all_card.triggered.connect(self.switchToPrintAllCard)
 
     def printCard(self):
-        res = func_print_card(self.card_list, '3_指定商品價格牌')
+        res = func_print_card(self.card_list, '1_指定商品價格牌')
         products_count = res.res.get('products_count')
         pages = res.res.get('pages')
         message = f'產生{pages}頁價格牌，總共{products_count}樣商品。'
