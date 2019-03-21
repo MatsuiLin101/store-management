@@ -1,6 +1,6 @@
 # Store Manegement  
-Edit products name, price, sale price, barcode, then produce products price card.
-UI design by QtDesigner.
+Edit products name, price, sale price, barcode, then produce products price card.  
+UI design by QtDesigner.  
 ## Install  
 ```
 pip install -r requirements.txt
