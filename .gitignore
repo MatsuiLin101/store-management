@@ -2,7 +2,6 @@
 **/*.svg
 **/*.pkl
 **/venv/
-**/*.ui
 **/dist/
 **/build/
 **/test.py
